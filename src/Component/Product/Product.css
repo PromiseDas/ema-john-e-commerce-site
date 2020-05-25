@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+    border-bottom: 1px solid #b2bec3;
+    margin-top: 1rem;
+}
+
+.product-details {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.product-details button {
+    margin-bottom: 1rem;
+    background-color: #ff9f43;
+    border-radius: 10px;
+    border: none;
+    padding: .8em 4em;
+}
+
+/* .feature-description {
+    margin-left: 2rem;
+    margin-top: 80px;
+}
+.feature-description li {
+    color: #636e72;
+    font-size: .7rem;
+} */

@@ -1,0 +1,14 @@
+.shop-container {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.product-container {
+    margin-right: 1rem;
+}
+
+.cart-container {
+    /* margin-left: 2rem; */
+    border-left: 1px solid #b2bec3;
+    padding-left: 2rem;
+}

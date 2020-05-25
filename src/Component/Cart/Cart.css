@@ -1,0 +1,19 @@
+.cart {
+    background-color: khaki;
+    padding: .5rem 2rem;
+}
+
+.cart-details {
+    font-size: .8rem;
+}
+
+.cart h4 {
+    color: red;
+}
+
+.cart button {
+    background-color: #ff9f43;
+    border-radius: 10px;
+    border: none;
+    padding: .5em 4em;
+}
