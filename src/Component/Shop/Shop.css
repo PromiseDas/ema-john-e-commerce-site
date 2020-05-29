@@ -1,13 +1,14 @@
-.shop-container {
+.container {
     display: flex;
     margin: 0 2rem;
+    justify-content: center;
 }
 
-.product-container {
+.container-product {
     margin-right: 1rem;
 }
 
-.cart-container {
+.container-price {
     /* margin-left: 2rem; */
     border-left: 1px solid #b2bec3;
     padding-left: 2rem;

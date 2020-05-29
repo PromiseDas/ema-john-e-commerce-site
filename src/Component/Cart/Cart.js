@@ -1,10 +1,11 @@
 import React from 'react';
 import './Cart.css';
+import { Link } from 'react-router-dom';
 
 const Cart = (props) => {
     const cart = props.cart; 
     // console.log(cart);
-    const total = cart.reduce((total, product) => total + product.price, 0);
+    const total = cart.reduce((total, product) => total + product.price * product.quantity, 0);
     
     const formatNumber = (num) => {
         const precision = num.toFixed(2);
@@ -37,7 +38,9 @@ const Cart = (props) => {
                 <p>Estimated Tax: {formatNumber(tax)} </p>
                 <h4>Order Total: {formatNumber(orderTotal)} </h4>
             </div>
-            <button> Review Order </button>
+            {
+                props.children
+            }
         </div>
     );
 };

@@ -1,0 +1,18 @@
+.reviewItems {
+    margin-left: 10rem;
+    width: 80%;
+    border-bottom: 1px solid lightgrey;
+}
+
+.reviewItems h4 {
+    color: blue;
+}
+
+.reviewItems button {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    background-color: #ff9f43;
+    border-radius: 5px;
+    border: none;
+    padding: .4em 4em;
+}
