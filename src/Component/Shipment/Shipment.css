@@ -1,0 +1,42 @@
+.form { 
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form input, textarea {
+    display: block;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 1.5rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: .5rem;
+    align-content: center;
+    box-shadow: 0 0 8px #DADADA;
+}
+
+.form input:focus, textarea:focus{
+    box-shadow: 0 0px 4px #FF8500;
+  }
+
+input[type="submit"] {
+    border: none;
+    width: 5rem;
+    height: 3rem;
+	background: #FF8500;
+	color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+    background: #EA7B00;
+	color: #fff;
+}
+
+.error { 
+    color: red;
+    font-size: .8rem;
+}
+
